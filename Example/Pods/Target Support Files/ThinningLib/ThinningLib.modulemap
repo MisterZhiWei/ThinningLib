@@ -1,0 +1,6 @@
+framework module ThinningLib {
+  umbrella header "ThinningLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

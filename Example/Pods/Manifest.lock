@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ThinningLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ThinningLib (from `../`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ThinningLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ThinningLib: 980551423cd86ac01f6f6fd9d7ad0e975702e02a
+
+PODFILE CHECKSUM: 4a77e42c487befba56f32c42a270b7c0c9af2885
+
+COCOAPODS: 1.10.0
